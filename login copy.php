@@ -31,22 +31,18 @@
         
           <!-- Card 1-->
           <section class = "card">
-            <h3>About Us</h3>
+            <h3>Welcome Back</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
           </section>
 
           <!-- Card 2-->
           <section class = "card">
-            <h3>Form</h3>
+            <h3>Log In</h3>
            
 
             <form action="login.php" method="POST">
-            <label>First Name</label>  
-            <input type="text" name="firstname">
-            <label>Last Name</label>      
-            <input type="text" name="lastname"></label>
-            <label>Email</label>   
+            
             <input type="text" name="email"></label>
             
                 <button>Submit</button>
