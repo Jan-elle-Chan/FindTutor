@@ -39,7 +39,29 @@
           <!-- Card 2-->
           <section class = "card">
             <h3>Form</h3>
-            <p>xxxxxxxxxxxxxx</p>
+           
+
+            <form action="collecting-form-data.php" method="POST">
+            <label>Name:   </label>  <input type="text" name="name">
+            <label>Age:      <input type="text" name="age"></label>
+            <label>Email:    <input type="text" name="email"></label>
+            <label>Password: <input type="password" name="pwd"></label>
+            <label>Bio:      <textarea name="bio"></textarea></label>
+            <label>Contact preference:
+                <select name="preferences">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                </select></label>
+            <p>Rating: 
+                1 <input type="radio" name="rating" value="1">
+                2 <input type="radio" name="rating" value="2">
+                3 <input type="radio" name="rating" value="3"></p>
+            <p><input type="checkbox" name="terms" value="true"> 
+            I agree to the terms and conditions.</p>
+            <p><input type="submit" value="Save"></p>
+            </form>
+
+
           </section>
 </div>
 </main>
