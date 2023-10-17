@@ -1,0 +1,28 @@
+/*Colour palette
+English violet #3F3340
+English violet #574B60
+Slate grey #7D8491
+Silver #C0C5C1
+Beige #EAFOCE
+
+*/
+
+/*Global Styles
+---------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+  
+  
+header{
+    background-color: #ffffff;
+    padding: 10px;
+    margin:auto;
+    height:20%;
+}
+
