@@ -57,3 +57,44 @@ h1 {
     background-color: #C0C5C1;
     margin: 0;
   }
+
+  /*Navigation 
+  ----------------*/
+
+.topnav {
+    overflow: hidden;
+    background-color: #355FB9;
+  }
+  
+  .flex-nav{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 20%;
+    justify-content: space-around;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color: #FF8000;
+    color: #FFFFFF;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
