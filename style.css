@@ -20,9 +20,40 @@ html {
   
   
 header{
-    background-color: #ffffff;
+    background-color: #7D8491;
     padding: 10px;
     margin:auto;
     height:20%;
 }
 
+h1 {
+    text-align: center;
+    font-size: 7.0rem;
+    line-height: 7rem;
+    color: #000;/*#ffffff, alternative white*/
+  }
+  
+  h2{
+    font-size: 3.0rem;
+  }
+  h2, h3, h4, h5, h6{
+    text-align: left;
+    color: #000;
+    font-family: "Helveltica", sans-serif;
+  }
+
+  h2.center{
+    padding-left: 45px;
+  }
+
+  body{
+    
+    font-family: "Helveltica", sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    height:100%;
+    width:100%;
+    color:#000;
+    background-color: #C0C5C1;
+    margin: 0;
+  }
