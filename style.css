@@ -15,6 +15,7 @@ html {
 
 *, *:before, *:after{
     box-sizing: inherit;
+    font-size: 16px;
 }
 
   
@@ -28,8 +29,8 @@ header{
 
 h1 {
     text-align: center;
-    font-size: 7.0rem;
-    line-height: 7rem;
+    font-size: 5.0rem;
+    line-height: 5rem;
     color: #000;/*#ffffff, alternative white*/
   }
   
@@ -131,7 +132,7 @@ h1 {
     text-align: center;
     padding: 14px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1rem;
   }
   
   .active {
@@ -149,7 +150,7 @@ h1 {
   }
   
 .dropdown .dropbtn {
-    font-size: 17px;    
+    font-size: 1rem;    
     border: none;
     outline: none;
     color: white;
@@ -217,7 +218,6 @@ h1 {
     display: block;
     padding: 14px;
     width: 100%;
-    font-size:14px; 
     text-align: center;
     cursor:pointer;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -226,9 +226,7 @@ h1 {
     top:50%;
     right: 0;*/
   }
-  .btn-left{
-    text-align: left;
-  }
+
   .button a{
     text-decoration: none;
     color:black}
