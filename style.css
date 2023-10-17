@@ -98,3 +98,142 @@ h1 {
     overflow: hidden;
   }
   
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    cursor:pointer;
+  }
+  
+  .dropdown-container {
+    display: none;
+    position: absolute;
+    background-color: #ffffed;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .dropdown-container a {
+    float: none;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    font-style: italic;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #FF8000;
+    color: #FFFFFF;
+  }
+  
+  
+  .dropdown-container a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #FFCC99;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .dropdown-container a:hover {
+    background-color: #FFCC99;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .dropdown:hover .dropdown-container {
+    display: block;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 14px;
+    width: 110px;
+    font-size:14px; 
+    text-align: center;
+    cursor:pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border:none;
+    /*position: absolute;
+    top:50%;
+    right: 0;*/
+  }
+  .btn-left{
+    text-align: left;
+  }
+  .button a{
+    text-decoration: none;
+    color:black}
+  
+  .active1-button{
+    background-color: #FF8000;
+    /*border: 1px solid #331900;*/
+    
+  }
+  
+  .active2-button{
+    background-color: #FFCC99;
+    /*border: 1px solid #331900;*/
+  }
+  
+  
+  .inactive-button{
+    background-color: #F0DECB;
+    /*border:1px solid #808080;*/
+    color:#808080;
+  }
+  
+  .active1-button:hover,
+  .active2-button:hover{
+    font-weight: bold;
+    /*border: solid 2px #331900;*/
+  }
+  
+
+  /*styles for responsiveness*/
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    .topnav.responsive .dropdown {float: none;
+    text-align: center;}
+    .topnav.responsive .dropdown-container {position: relative;
+    text-align: center;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+}
