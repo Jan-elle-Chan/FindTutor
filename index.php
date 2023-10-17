@@ -31,8 +31,9 @@
         
           <!-- Card 1-->
           <section class = "card">
-            <h3>General</h3>
-            <p>xxxxxxxxxxxxxx</p>
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
           </section>
 
           <!-- Card 2-->
