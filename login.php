@@ -44,7 +44,8 @@
             <form action="login.php" method="POST">
             <label>Email</label>  
             <input type="text" name="email"></label>
-            
+            <label>Password</label>  
+            <input type="text" name="password"></label>
                 <button>Log In</button>
                 <a href="signup.php">Not registered, sign up</a>
             </form>
