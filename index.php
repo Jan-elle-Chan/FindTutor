@@ -26,6 +26,21 @@
 </nav>
 
 <main>
+<section id="animations" class = "animations">
+    <div class = "content page-grid">
+        
+          <!-- Card 1-->
+          <section class = "card">
+            <h3>General</h3>
+            <p>xxxxxxxxxxxxxx</p>
+          </section>
+
+          <!-- Card 2-->
+          <section class = "card">
+            <h3>Form</h3>
+            <p>xxxxxxxxxxxxxx</p>
+          </section>
+</div>
 </main>
 
 
