@@ -93,15 +93,7 @@ h1 {
     background: #fff;
     border: 1px solid #9c9c9c;
   }
-  form button {
-    background: lightgrey;
-    padding: 0.7em;
-    width: 100%;
-    border: 0;
-  }
-  form button:hover {
-    background: gold;
-  }
+  
   
   label {
     padding: 0.5em 0.5em 0.5em 0;
@@ -220,10 +212,10 @@ h1 {
     display: block;
   }
 
-  .button {
-    display: inline-block;
+  button {
+    display: block;
     padding: 14px;
-    width: 110px;
+    width: 100%;
     font-size:14px; 
     text-align: center;
     cursor:pointer;
