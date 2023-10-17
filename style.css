@@ -98,6 +98,12 @@ img{
     background: #fff;
     /*border: 1px solid #9c9c9c;*/
   }
+
+  form a{
+    text-decoration: none;
+    color:#543c66;
+    align-self: center;
+  }
   
   
   label {
@@ -294,7 +300,8 @@ img{
         }
     
         input,
-        button {
+        button, form a {
         grid-column: 2 / 3;
         }
+         
     }
