@@ -41,16 +41,13 @@
             <h3>Form</h3>
            
 
-            <form action="collecting-form-data.php" method="POST">
-            <label>Subject</label>  
-            <input type="text" name="subject">
-            <label>Level</label>      
-            <input type="text" name="level"></label>
-            <label>Time</label>   
-            <input type="text" name="time"></label>
-                      
-            <label>Session</label>
-            <input type="text" name="sessiontype"></label>
+            <form action="login.php" method="POST">
+            <label>First Name</label>  
+            <input type="text" name="firstname">
+            <label>Last Name</label>      
+            <input type="text" name="lastname"></label>
+            <label>Email</label>   
+            <input type="text" name="email"></label>
             
                 <button>Submit</button>
             </form>
