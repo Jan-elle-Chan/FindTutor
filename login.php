@@ -42,10 +42,11 @@
            
 
             <form action="login.php" method="POST">
-            
+            <label>Email</label>  
             <input type="text" name="email"></label>
             
-                <button>Submit</button>
+                <button>Log In</button>
+                <a href="signup.php">Not registered, sign up</a>
             </form>
 
 
