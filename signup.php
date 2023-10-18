@@ -49,7 +49,7 @@
             <label>Email</label>   
             <input type="text" name="email"></label>
             
-                <button>Submit</button>
+                <button>Sign Up</button>
             </form>
 
 
