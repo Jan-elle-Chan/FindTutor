@@ -27,34 +27,25 @@
 
 <main>
 <section>
-    <div class = "content page-grid">
+    <div class = "content">
         
-          <!-- Card 1-->
-          <section class = "card">
-            <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          </section>
 
           <!-- Card 2-->
           <section class = "card">
-            <h3>Form</h3>
+            <h3>Your Tutors</h3>
            
-
-            <form action="" method="POST">
-            <label>Subject</label>  
-            <input type="text" name="subject">
-            <label>Level</label>      
-            <input type="text" name="level"></label>
-            <label>Time</label>   
-            <input type="text" name="time"></label>
-                      
-            <label>Session</label>
-            <input type="text" name="sessiontype"></label>
-            
-                <button>Submit</button>
-            </form>
-
+            <div class = "bio-grid">
+            <img src="images/pexels-george-ikwegbu-2379429" alt="Image of tutor">
+            <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <button>Book Now</button>
+            <img src="images/pexels-george-ikwegbu-2379429" alt="Image of tutor">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <button>Book Now</button>
+            <img src="images/pexels-george-ikwegbu-2379429" alt="Image of tutor">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <button>Book Now</button>
+          </div>
 
           </section>
 </div>

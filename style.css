@@ -72,10 +72,12 @@ img{
 }
 
 .page-grid{
-    display: grid;
-    grid-template-columns: 2fr 2fr ;
-    column-gap: 1.5em;
+    display: block;
     
+}
+
+.bio-grid{
+    display: block;
 }
 
 .card {
@@ -288,6 +290,25 @@ img{
             grid-template-columns: 2fr 2fr ;
             column-gap: 1.5em;
         }
+
+        .bio-grid{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr ;
+            grid-template-rows: auto;
+            row-gap: 1.5em;
+        }
+
+        .bio-grid img{
+            grid-column: 1 / 2;
+        }
+
+        .bio-grid p{
+            grid-column: 2 / 3;
+        }
+        .bio-grid button{
+            grid-column: 3 / 4;
+        }
+
 
         form {
         grid-template-columns: 200px 1fr;
