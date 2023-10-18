@@ -30,19 +30,18 @@
     <div class = "content">
         
 
-          <!-- Card 2-->
+          <!-- Card-->
           <section class = "card">
             <h3>Your Tutors</h3>
            
             <div class = "bio-grid">
-            <img src="images/pexels-george-ikwegbu-2379429" alt="Image of tutor">
             <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <button>Book Now</button>
-            <img src="images/pexels-george-ikwegbu-2379429" alt="Image of tutor">
+            <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <button>Book Now</button>
-            <img src="images/pexels-george-ikwegbu-2379429" alt="Image of tutor">
+            <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <button>Book Now</button>
           </div>

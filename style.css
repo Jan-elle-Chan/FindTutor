@@ -307,6 +307,8 @@ img{
         }
         .bio-grid button{
             grid-column: 3 / 4;
+            height: 2em;
+
         }
 
 
