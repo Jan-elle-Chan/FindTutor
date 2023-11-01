@@ -38,7 +38,8 @@
 
           <!-- Card 2-->
           <section class = "card">
-            <h3>Form</h3>
+            <h3>Find a tutor now!</h3>
+            <p> Complete the form, click Submit</p>
            
 
             <form action="" method="POST">
