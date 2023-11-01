@@ -9,3 +9,6 @@ Prompt 1: Make this page more user-friendly
 To make the HTML code more user-friendly, you can improve its readability and structure, add some labels and placeholders for form inputs, and use some additional HTML elements for better presentation. 
 
 This did not provide the answer I wanted, I already have labels. I want to make the interface more user friendly.
+
+Prompt 2: How can the user interface be improved?
+
