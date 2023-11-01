@@ -58,3 +58,16 @@ Ensure that the content on your page is relevant, concise, and easy to understan
 
 Solution/ feature to implement:
 1. Consider using radio buttons, dropdowns, or checkboxes for input fields where applicable, rather than just text inputs.
+
+This solution was implemented but there are other features from the list that I think are quite important that if not already implemented, can be refined.
+5. Feedback and Confirmation:
+Provide feedback to the user after form submission, such as a success message or a confirmation screen.
+Add loading indicators if the form submission takes some time.
+
+6. Accessibility:
+Make sure your web page is accessible to all users, including those with disabilities. Use semantic HTML elements, alt text for images, and ARIA attributes if necessary.
+
+7. User Experience:
+Optimize the performance of your web page to ensure fast loading times.
+Test your website on various browsers to ensure compatibility.
+Keep the user experience in mind, focusing on making the content and interactions as smooth as possible.
