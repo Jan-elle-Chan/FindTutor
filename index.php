@@ -53,10 +53,13 @@
               <option value="evening">Evening</option>
               <option value="night">Night</option>
               </select>  
-            <input type="text" name="time"></label>
-                      
-            <label>Session</label>
-            <input type="text" name="sessiontype"></label>
+                                
+              <label for="session">Session</label>
+            <select name="session" id="session">
+              <option value="person">In-Person</option>
+              <option value="online">Online</option>
+              
+              </select> 
             
                 <button>Submit</button>
             </form>
