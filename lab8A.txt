@@ -2,6 +2,7 @@ Janelle Chandass
 DGL 123 DLU
 https://github.com/Jan-elle-Chan/FindTutor
 Lab 8A
+Reference: https://chat.openai.com/
 
 I selected my index.html page which allows user to select criteria to find a tutor
 Prompt 1: Make this page more user-friendly
