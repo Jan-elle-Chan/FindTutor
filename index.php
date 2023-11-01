@@ -42,8 +42,15 @@
            
 
             <form action="" method="POST">
-            <label>Subject</label>  
-            <input type="text" name="subject">
+            <label for="subject">Level</label>
+            <select name="subject" id="subject">
+              <option value="math">Math</option>
+              <option value="english">English</option>
+              <option value="french">French</option>
+              <option value="science">Science</option>
+              <option value="history">History</option>
+              <option value="computer">Computer Studies</option>
+            </select>
             <label for="level">Level</label>
             <select name="level" id="level">
               <option value="elementary">Elementary</option>
