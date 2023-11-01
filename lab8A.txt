@@ -4,6 +4,8 @@ https://github.com/Jan-elle-Chan/FindTutor
 Lab 8A
 Reference: https://chat.openai.com/
 
+Grade 3/4
+
 I selected my index.html page which allows user to select criteria to find a tutor
 Prompt 1: Make this page more user-friendly
 
@@ -51,7 +53,10 @@ Solution/ feature to implement:
 1. Consider using radio buttons, dropdowns, or checkboxes for input fields where applicable, rather than just text inputs.
 2. Add an appropriate title to form, and brief instructions
 
-This solution was implemented but there are other features from the list that I think are quite important that if not already implemented, can be refined. 
+These solutions were implemented but there are other features from the list that I think are quite important that if not already implemented, can be refined as project continues.
+
+
+
 5. Feedback and Confirmation:
 Provide feedback to the user after form submission, such as a success message or a confirmation screen.
 Add loading indicators if the form submission takes some time.
