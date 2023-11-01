@@ -46,7 +46,13 @@
             <input type="text" name="subject">
             <label>Level</label>      
             <input type="text" name="level"></label>
-            <label>Time</label>   
+            <label for="time">Time</label>
+            <select name="time" id="time">
+              <option value="morning">Morning</option>
+              <option value="afternoon">Afternoon</option>
+              <option value="evening">Evening</option>
+              <option value="night">Night</option>
+              </select>  
             <input type="text" name="time"></label>
                       
             <label>Session</label>
