@@ -44,22 +44,25 @@
             <form action="" method="POST">
             <label>Subject</label>  
             <input type="text" name="subject">
-            <label>Level</label>      
-            <input type="text" name="level"></label>
+            <label for="level">Level</label>
+            <select name="level" id="level">
+              <option value="elementary">Elementary</option>
+              <option value="secondary">Secondary</option>
+              <option value="tertiary">Tertiary</option>
+            </select>
             <label for="time">Time</label>
             <select name="time" id="time">
               <option value="morning">Morning</option>
               <option value="afternoon">Afternoon</option>
               <option value="evening">Evening</option>
               <option value="night">Night</option>
-              </select>  
+            </select>  
                                 
-              <label for="session">Session</label>
+            <label for="session">Session</label>
             <select name="session" id="session">
               <option value="person">In-Person</option>
               <option value="online">Online</option>
-              
-              </select> 
+            </select> 
             
                 <button>Submit</button>
             </form>
