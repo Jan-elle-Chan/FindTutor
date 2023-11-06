@@ -29,54 +29,7 @@
 <section>
     <div class = "content page-grid">
         
-          <!-- Card 1-->
-          <section class = "card">
-            <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          </section>
-
-          <!-- Card 2-->
-          <section class = "card">
-            <h3>Find a tutor now!</h3>
-            <p> Complete the form, click Submit</p>
-           
-
-            <form action="" method="POST">
-            <label for="subject">Level</label>
-            <select name="subject" id="subject">
-              <option value="math">Math</option>
-              <option value="english">English</option>
-              <option value="french">French</option>
-              <option value="science">Science</option>
-              <option value="history">History</option>
-              <option value="computer">Computer Studies</option>
-            </select>
-            <label for="level">Level</label>
-            <select name="level" id="level">
-              <option value="elementary">Elementary</option>
-              <option value="secondary">Secondary</option>
-              <option value="tertiary">Tertiary</option>
-            </select>
-            <label for="time">Time</label>
-            <select name="time" id="time">
-              <option value="morning">Morning</option>
-              <option value="afternoon">Afternoon</option>
-              <option value="evening">Evening</option>
-              <option value="night">Night</option>
-            </select>  
-                                
-            <label for="session">Session</label>
-            <select name="session" id="session">
-              <option value="person">In-Person</option>
-              <option value="online">Online</option>
-            </select> 
-            
-                <button>Submit</button>
-            </form>
-
-
-          </section>
+          
 </div>
 </main>
 
