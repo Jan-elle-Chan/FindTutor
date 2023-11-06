@@ -1,6 +1,6 @@
 <?php
-require '../cms/includes/database-connection.php';             // Create PDO object
-//require '../cms/includes/functions.php';                       // Functions 
+require 'includes/database-connection.php';             // Create PDO object
+require 'includes/functions.php';                       // Functions 
 $sql       = "SELECT first, last FROM tutor;"; // SQL
 $statement = $pdo->query($sql);                                // Run query
 $tutors   = $statement->fetchAll();                           // Get data
@@ -54,9 +54,8 @@ $tutors   = $statement->fetchAll();                           // Get data
           </div>
           <?php foreach ($tutors as $tutor) { ?>
         <div>
-          <!-- Filename for blank image has been updated (different to print book) -->
           
-          <h2><?= html_escape($member['first']) ?> <?= html_escape($member['last']) ?></h2>
+          <h2><?= html_escape($tutor['first']) ?> <?= html_escape($tutor['last']) ?></h2>
           
         </div>
       <?php } ?>
