@@ -1,3 +1,10 @@
+<?php
+require '../cms/includes/database-connection.php';             // Create PDO object
+//require '../cms/includes/functions.php';                       // Functions 
+$sql       = "SELECT first, last FROM tutor;"; // SQL
+$statement = $pdo->query($sql);                                // Run query
+$tutors   = $statement->fetchAll();                           // Get data
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -45,7 +52,14 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <button>Book Now</button>
           </div>
-
+          <?php foreach ($tutors as $tutor) { ?>
+        <div>
+          <!-- Filename for blank image has been updated (different to print book) -->
+          
+          <h2><?= html_escape($member['first']) ?> <?= html_escape($member['last']) ?></h2>
+          
+        </div>
+      <?php } ?>
           </section>
 </div>
 </main>
