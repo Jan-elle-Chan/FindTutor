@@ -5,6 +5,25 @@ $sql       = "SELECT first, last FROM tutor;"; // SQL
 $statement = $pdo->query($sql);                                // Run query
 $tutors   = $statement->fetchAll();                           // Get data
 ?>
+
+<?php
+require 'includes/database-connection.php';
+require 'includes/functions.php';
+$id        = 1;
+$sql       = "SELECT first, last 
+                FROM tutor 
+               WHERE tutorId = :id;";
+$statement = $pdo->prepare($sql);
+$statement->bindValue('id', $id, PDO::PARAM_INT);
+$statement->execute();
+$tutor    = $statement->fetch();
+if (!$tutor) {
+    include 'page-not-found.php';
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
