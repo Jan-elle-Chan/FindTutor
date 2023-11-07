@@ -71,7 +71,7 @@
               <option value="online">Online</option>
             </select> 
             
-                <button>Submit</button>
+                <button onclick="window.location.href='search.php';">Submit</button>
             </form>
 
 
