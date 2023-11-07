@@ -1,6 +1,7 @@
 <?php
 require 'includes/database-connection.php';             // Create PDO object
 require 'includes/functions.php';                       // Functions 
+
 $sql       = "SELECT first, last FROM tutor
               WHERE subject LIKE '%Mathematics%' AND level LIKE '%Secondary%';"; // SQL
 $statement = $pdo->query($sql);                                // Run query
@@ -50,26 +51,18 @@ $tutors   = $statement->fetchAll();                           // Get data
            </h3>
           
             <div class = "bio-grid">
+            <?php foreach ($tutors as $tutor) { ?>
+            <div>
+              <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
+              <h2><?= html_escape($tutor['first']) ?> <?= html_escape($tutor['last']) ?></h2>
+              <button>Book Now</button>
+            </div>
+            <?php } ?>
             
-            <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <button>Book Now</button>
-            <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <button>Book Now</button>
-            <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <button>Book Now</button>
-          </div>
-          <?php foreach ($tutors as $tutor) { ?>
-        <div>
+            </div>
           
-          <h2><?= html_escape($tutor['first']) ?> <?= html_escape($tutor['last']) ?></h2>
-          
-        </div>
-      <?php } ?>
           </section>
-</div>
+    </div>
 </main>
 
 
