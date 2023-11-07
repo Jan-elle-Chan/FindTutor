@@ -1,3 +1,13 @@
+<?php
+require 'includes/database-connection.php';             // Create PDO object
+require 'includes/functions.php';                       // Functions 
+$sql       = "SELECT first, last FROM tutor
+              WHERE subject LIKE '%Mathematics%' AND level LIKE '%Secondary%';"; // SQL
+$statement = $pdo->query($sql);                                // Run query
+$tutors   = $statement->fetchAll();                           // Get data
+?>
+
+
 
 
 
@@ -35,9 +45,10 @@
 
           <!-- Card-->
           <section class = "card">
-            <h3>Tutors you may be interested in (<?php echo $_POST["subject"]; ?>
+          <h3>Tutors you may be interested in (<?php echo $_POST["subject"]; ?>
            , <?php echo $_POST["level"]; ?>, <?php echo $_POST["time"]; ?>, <?php echo $_POST["session"]; ?>)
            </h3>
+          
             <div class = "bio-grid">
             
             <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
