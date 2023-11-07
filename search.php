@@ -52,11 +52,11 @@ $tutors   = $statement->fetchAll();                           // Get data
           
             <div class = "bio-grid">
             <?php foreach ($tutors as $tutor) { ?>
-            <div>
+            
               <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
               <h2><?= html_escape($tutor['first']) ?> <?= html_escape($tutor['last']) ?></h2>
               <button>Book Now</button>
-            </div>
+            
             <?php } ?>
             
             </div>
