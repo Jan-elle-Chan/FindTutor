@@ -41,8 +41,7 @@
             <h3>Find a tutor now!</h3>
             <p> Complete the form, click Submit</p>
            
-
-            <form action="" method="POST">
+            <form action="search.php" method="POST">
             <label for="subject">Level</label>
             <select name="subject" id="subject">
               <option value="math">Math</option>
