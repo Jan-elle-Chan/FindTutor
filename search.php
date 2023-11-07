@@ -35,10 +35,9 @@
 
           <!-- Card-->
           <section class = "card">
-            <h3>Tutors you may be interested in:</h3>
-            <?php echo $_GET["subject"]; ?>
-            Your email address is: <?php echo $_GET["level"]; ?></p>
-          
+            <h3>Tutors you may be interested in (<?php echo $_POST["subject"]; ?>
+           , <?php echo $_POST["level"]; ?>, <?php echo $_POST["time"]; ?>, <?php echo $_POST["session"]; ?>)
+           </h3>
             <div class = "bio-grid">
             
             <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
