@@ -56,11 +56,9 @@ $tutors   = $statement->fetchAll();                           // Get data
           
             <div class = "bio-grid">
             <?php foreach ($tutors as $tutor) { ?>
-            
-              <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
-              <h2><?= html_escape($tutor['first']) ?> <?= html_escape($tutor['last']) ?></h2>
+              <h6><?= html_escape($tutor['first']) ?><?= html_escape($tutor['last']) ?></h6>
+              <p>I am located in <?= html_escape($tutor['first']) ?>. tutoring subjects <?= html_escape($tutor['last']) ?> at <?= html_escape($tutor['first']) ?> level. <br>I have a <?= html_escape($tutor['last']) ?> star rating.</p>
               <button>Book Now</button>
-            
             <?php } ?>
             
             </div>

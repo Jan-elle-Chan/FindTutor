@@ -314,12 +314,13 @@ button:hover {
 
   .bio-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    row-gap: 1.5em;
+    row-gap: 2em;
+    column-gap: 40px;
   }
 
-  .bio-grid img {
+  .bio-grid h6 {
     grid-column: 1 / 2;
   }
 
@@ -327,7 +328,7 @@ button:hover {
     grid-column: 2 / 3;
   }
   .bio-grid button {
-    grid-column: 3 / 4;
+    grid-column: 4 / 5;
     height: 2em;
   }
 
