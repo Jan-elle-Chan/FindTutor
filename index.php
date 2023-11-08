@@ -42,7 +42,7 @@
             <p> Complete the form, click Submit</p>
            
             <form action="search.php" method="POST">
-            <label for="subject">Level</label>
+            <label for="subject">Subject</label>
             <select name="subject" id="subject">
               <option value="math">Math</option>
               <option value="english">English</option>
