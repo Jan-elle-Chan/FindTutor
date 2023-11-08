@@ -55,8 +55,8 @@ $students   = $statement->fetchAll();                           // Get data
             <div class = "bio-grid">
             <?php foreach ($students as $student) { ?>
               <h6><?= html_escape($student['first']) ?><?= html_escape($student['last']) ?></h6>
-              <p>I am located in <?= html_escape($student['location']) ?>. tutoring subjects <?= html_escape($student['subject']) ?> at </p>
-              <button>Book Now</button>
+              <p>Current Level <?= html_escape($student['level']) ?></p>
+              <button>Delete</button>
             <?php } ?>
             
             </div>
