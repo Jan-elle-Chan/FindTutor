@@ -6,8 +6,8 @@ $level = $_POST["level"];
 $time = $_POST["time"];
 $session = $_POST["session"];
 
-$sql       = "SELECT first, last, rating, location, time, subject, level FROM tutor
-              WHERE subject LIKE '%$subject%' AND level LIKE '%$level%';"; // SQL
+$sql       = "SELECT first, last, currentLevel FROM student
+              WHERE userId ='502';"; // SQL
 $statement = $pdo->query($sql);                                // Run query
 $students   = $statement->fetchAll();                           // Get data
 ?>
