@@ -2,12 +2,12 @@
 require 'includes/database-connection.php';             // Create PDO object
 require 'includes/functions.php';                       // Functions 
 $subject = $_POST["subject"];
-$level = $_POST["subject"];
-$time = $_POST["subject"];
-$session = $_POST["subject"];
+$level = $_POST["level"];
+$time = $_POST["time"];
+$session = $_POST["session"];
 
-$sql       = "SELECT first, last FROM tutor
-              WHERE subject LIKE '%$subject%' AND level LIKE '%Secondary%';"; // SQL
+$sql       = "SELECT first, last, rating, location, time, subject, level FROM tutor
+              WHERE subject LIKE '%$subject%' AND level LIKE '%$level%';"; // SQL
 $statement = $pdo->query($sql);                                // Run query
 $tutors   = $statement->fetchAll();                           // Get data
 ?>
