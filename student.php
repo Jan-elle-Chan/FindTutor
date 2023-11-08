@@ -9,8 +9,10 @@ $userId = 502;
 
 $sql       = "SELECT first, last, level FROM student
               WHERE userId = '%$userId%';"; // SQL
+$sql       = "SELECT first, last, rating, location, time, subject, level FROM tutor
+              WHERE subject LIKE '%$subject%' AND level LIKE '%$level%';"; // SQL
 $statement = $pdo->query($sql);                                // Run query
-$tutors   = $statement->fetchAll();                           // Get data
+$students   = $statement->fetchAll();                           // Get data
 ?>
 
 
@@ -56,10 +58,10 @@ $tutors   = $statement->fetchAll();                           // Get data
            </h3>
           
             <div class = "bio-grid">
-            <?php foreach ($tutors as $tutor) { ?>
-              <h6><?= html_escape($tutor['first']) ?><?= html_escape($tutor['last']) ?></h6>
-              <p>Current Level: <?= html_escape($tutor['rating']) ?></p>
-              <button>Delete Student</button>
+            <?php foreach ($students as $student) { ?>
+              <h6><?= html_escape($student['first']) ?><?= html_escape($student['last']) ?></h6>
+              <p>I am located in <?= html_escape($student['location']) ?>. tutoring subjects <?= html_escape($student['subject']) ?> at </p>
+              <button>Book Now</button>
             <?php } ?>
             
             </div>
