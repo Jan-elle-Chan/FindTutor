@@ -32,8 +32,8 @@
           <!-- Card 1-->
           <section class = "card">
             <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <p>Welcome to Find a Tutor. For over 10 years we have been connecting learners with great tutors. Our tutors undergo a rigorous screening process to ensure learners have the best learning experience possible.</p>
+            <p>To get started, simply select your subject, level, time and session type (online or in-person)</p>
           </section>
 
           <!-- Card 2-->
