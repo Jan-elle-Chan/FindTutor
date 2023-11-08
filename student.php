@@ -1,19 +1,13 @@
 <?php
 require 'includes/database-connection.php';             // Create PDO object
 require 'includes/functions.php';                       // Functions 
-$subject = $_POST["subject"];
-$level = $_POST["level"];
-$time = $_POST["time"];
-$session = $_POST["session"];
+
 
 $sql       = "SELECT first, last, currentLevel FROM student
               WHERE userId ='502';"; // SQL
 $statement = $pdo->query($sql);                                // Run query
 $students   = $statement->fetchAll();                           // Get data
 ?>
-
-
-
 
 
 <!DOCTYPE html>
@@ -54,8 +48,8 @@ $students   = $statement->fetchAll();                           // Get data
           
             <div class = "bio-grid">
             <?php foreach ($students as $student) { ?>
-              <h6><?= html_escape($student['first']) ?><?= html_escape($student['last']) ?></h6>
-              <p>Current Level <?= html_escape($student['level']) ?></p>
+              <h6><?= html_escape($student['first'])?>&nbsp;<?= html_escape($student['last']) ?></h6>
+              <p>Current Level: <?= html_escape($student['currentLevel']) ?></p>
               <button>Delete</button>
             <?php } ?>
             
