@@ -5,10 +5,7 @@ $subject = $_POST["subject"];
 $level = $_POST["level"];
 $time = $_POST["time"];
 $session = $_POST["session"];
-$userId = 502;
 
-$sql       = "SELECT first, last, level FROM student
-              WHERE userId = '%$userId%';"; // SQL
 $sql       = "SELECT first, last, rating, location, time, subject, level FROM tutor
               WHERE subject LIKE '%$subject%' AND level LIKE '%$level%';"; // SQL
 $statement = $pdo->query($sql);                                // Run query
@@ -53,9 +50,7 @@ $students   = $statement->fetchAll();                           // Get data
 
           <!-- Card-->
           <section class = "card">
-          <h3>Tutors you may be interested in (<?php echo $_POST["subject"]; ?>
-           , <?php echo $_POST["level"]; ?>, <?php echo $_POST["time"]; ?>, <?php echo $_POST["session"]; ?>)
-           </h3>
+          <h3>Your students</h3>
           
             <div class = "bio-grid">
             <?php foreach ($students as $student) { ?>
