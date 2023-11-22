@@ -14,4 +14,7 @@ Assignment 8
 8. Go to Tools > Databases > phpMyAdmin 
 9. Select findtutor from left pane
 10. Once it is open, click on the import tab at the top
-11. Scroll down, clcik on import
+11. Scroll down, click on import
+12. Go to location of project on local computer and create zip folder
+13. In C-panel, Tools > File Manager > navigate to dgl123 sub-domain, clcik on Upload, select zipped folder
+14. Extract contents from zip folder, then delete zip folder
