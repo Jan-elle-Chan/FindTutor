@@ -1,8 +1,10 @@
 Janelle Chandass\
 Assignment 8\
+Grade - 7.2
 DGL 123 DLU\
-Github Link https://github.com/Jan-elle-Chan/FindTutor\
+Github Link https://github.com/Jan-elle-Chan/FindTutor/
 Deployed project link: https://dgl123.jchandass.imgd.ca/FindTutor/
+
 
 
 1. Create project folder, DGL123-Project
