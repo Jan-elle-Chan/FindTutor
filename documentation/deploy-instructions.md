@@ -11,11 +11,11 @@ Assignment 8
 6. Open phpMyAdmin in browser, select project database, export database to local computer, name - findtutor
 7. Open C-Panel > Tools > Databases > MySQL Databases, and create a new database, name - findtutorm3
 8. Add user, n0201359_jchandass, with all privileges
-8. Go to Tools > Databases > phpMyAdmin 
-9. Select findtutor from left pane
-10. Once it is open, click on the import tab at the top
-11. Scroll down, click on import
-12. Change database name in project to match the one created in C-Panel
-13. Go to location of project on local computer and create zip folder
-14. In C-panel, Tools > File Manager > navigate to dgl123 sub-domain, clcik on Upload, select zipped folder
-15. Extract contents from zip folder, then delete zip folder
+9. Go to Tools > Databases > phpMyAdmin 
+10. Select findtutor from left pane
+11. Once it is open, click on the import tab at the top
+12. Scroll down, click on import
+13. Change database name in project to match the one created in C-Panel
+14. Go to location of project on local computer and create zip folder
+15. In C-panel, Tools > File Manager > navigate to dgl123 sub-domain, clcik on Upload, select zipped folder
+16. Extract contents from zip folder, then delete zip folder
