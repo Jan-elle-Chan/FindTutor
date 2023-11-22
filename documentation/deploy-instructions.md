@@ -15,6 +15,7 @@ Assignment 8
 9. Select findtutor from left pane
 10. Once it is open, click on the import tab at the top
 11. Scroll down, click on import
-12. Go to location of project on local computer and create zip folder
-13. In C-panel, Tools > File Manager > navigate to dgl123 sub-domain, clcik on Upload, select zipped folder
-14. Extract contents from zip folder, then delete zip folder
+12. Change database name in project to match the one created in C-Panel
+13. Go to location of project on local computer and create zip folder
+14. In C-panel, Tools > File Manager > navigate to dgl123 sub-domain, clcik on Upload, select zipped folder
+15. Extract contents from zip folder, then delete zip folder
