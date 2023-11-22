@@ -1,7 +1,9 @@
-Janelle Chandass
-DGL 123 DLU
-https://github.com/Jan-elle-Chan/FindTutor
-Assignment 8
+Janelle Chandass\
+Assignment 8\
+DGL 123 DLU\
+Github Link https://github.com/Jan-elle-Chan/FindTutor\
+Deployed project link: https://dgl123.jchandass.imgd.ca/FindTutor/
+
 
 1. Create project folder, DGL123-Project
 2. Move FindTutor to project folder
@@ -19,3 +21,5 @@ Assignment 8
 14. Go to location of project on local computer and create zip folder
 15. In C-panel, Tools > File Manager > navigate to dgl123 sub-domain, clcik on Upload, select zipped folder
 16. Extract contents from zip folder, then delete zip folder
+
+The screenshot of site on imgd site is in the images folder.
