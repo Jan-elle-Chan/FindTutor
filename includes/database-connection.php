@@ -1,7 +1,7 @@
 <?php
 $type     = 'mysql';                 // Type of database
 $server   = 'localhost';             // Server the database is on
-$db       = 'findtutorm3';             // Name of the database
+$db       = 'n0201359_findtutorm3';             // Name of the database
 $port     = '';                      // Port is usually 8889 in MAMP and 3306 in XAMPP
 $charset  = 'utf8mb4';               // UTF-8 encoding using 4 bytes of data per character
 
