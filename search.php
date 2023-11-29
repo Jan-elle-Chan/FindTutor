@@ -65,11 +65,11 @@ $tutors   = $statement->fetchAll();                           // Get data
           
           </section>
           <?php
-          //START SESSION
+          /*//START SESSION
           session_start();
           
           print_r($_SESSION);
-          var_dump($_SESSION);
+          var_dump($_SESSION);*/
           ?>
     </div>
 </main>
