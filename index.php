@@ -1,4 +1,20 @@
+<?php
+// (A) ERROR REPORTING LEVEL
+// https://www.php.net/manual/en/errorfunc.constants.php
+error_reporting(E_ALL & ~E_NOTICE); // ALL EXCEPT NOTICES
+// error_reporting(E_ALL); // ALL KINDS OF ERROR
+// error_reporting(0); // NO ERROR REPORTING
+ 
+// (B) ERROR LOG
+ini_set("log_errors", 1); // SAVE ERROR TO LOG FILE
+ini_set("error_log", __DIR__ . DIRECTORY_SEPARATOR . "error.log"); // LOG FILE
+ 
+// (C) DISPLAY ERROR MESSAGES
+ini_set("display_errors", 1);
+?>
+
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
