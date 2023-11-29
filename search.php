@@ -64,6 +64,13 @@ $tutors   = $statement->fetchAll();                           // Get data
             </div>
           
           </section>
+          <?php
+          //START SESSION
+          session_start();
+          
+          print_r($_SESSION);
+          var_dump($_SESSION);
+          ?>
     </div>
 </main>
 
