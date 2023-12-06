@@ -32,7 +32,7 @@
           <!-- Card 1-->
           <section class = "card">
             <h3>Sign Up</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <p>Fill in the form below to sign up and keep track of your students</p>
             <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
           </section>
 
