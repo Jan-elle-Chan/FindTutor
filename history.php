@@ -43,24 +43,7 @@ $tutors = $statement->fetchAll(); // Get data
     <div class = "content">
       <!-- Card-->
           <section class = "card">
-            <h3>Your Tutors</h3>
-
-            <div class = "bio-grid">
-            <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <button>Book Now</button>
-            <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <button>Book Now</button>
-            <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <button>Book Now</button>
-          </div>
-          <?php foreach ($tutors as $tutor) {?>
-            <div>
-              <h2><?=html_escape($tutor['first'])?> <?=html_escape($tutor['last'])?></h2>
-            </div>
-          <?php }?>
+            <h3>We are currently unable to display your search history</h3>
       </div>
   </section>
 </main>
