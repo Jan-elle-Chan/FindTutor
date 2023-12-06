@@ -1,12 +1,12 @@
 <?php
 $type     = 'mysql';                 // Type of database
 $server   = 'localhost';             // Server the database is on
-$db       = 'findtutor';             // Name of the database
+$db       = 'n0201359_findtutorm3';             // Name of the database  findtutor
 $port     = '';                      // Port is usually 8889 in MAMP and 3306 in XAMPP
 $charset  = 'utf8mb4';               // UTF-8 encoding using 4 bytes of data per character
 
-$username = 'janelle3';         // Enter YOUR username here
-$password = 'password';         // Enter YOUR password here
+$username = 'n0201359_jchandass';         // Enter YOUR username here  janelle3
+$password = 'Jolienmarie2@';         // Enter YOUR password here  password
 
 $options  = [                        // Options for how PDO works
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
