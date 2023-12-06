@@ -4,11 +4,11 @@
 error_reporting(E_ALL & ~E_NOTICE); // ALL EXCEPT NOTICES
 // error_reporting(E_ALL); // ALL KINDS OF ERROR
 // error_reporting(0); // NO ERROR REPORTING
- 
+
 // (B) ERROR LOG
 ini_set("log_errors", 1); // SAVE ERROR TO LOG FILE
 ini_set("error_log", __DIR__ . DIRECTORY_SEPARATOR . "error.log"); // LOG FILE
- 
+
 // (C) DISPLAY ERROR MESSAGES
 ini_set("display_errors", 1);
 ?>
@@ -24,28 +24,27 @@ ini_set("display_errors", 1);
     <script src="app.js"></script>
   </head>
   <body>
-<header>
-    <h1>Find a Tutor</h1>
-</header>
+    <header>
+        <h1>Find a Tutor</h1>
+    </header>
+    <!-- Nav-->
+    <nav class="topnav" id="myTopnav">
+      <a class="active" href="index.php">Home</a>
+      <div class="dropdown">
+        <div class="dropbtn">My Profile</div>
+      <div class="dropdown-container">
+        <a href="student.php">Students</a>
+        <a href="history.php">History</a>
+        <a href="report.php">Reports</a>
+        </div>
+      </div>
+      <a href="login.php">Login</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
 
-<nav class="topnav" id="myTopnav">
-  <a class="active" href="index.php">Home</a>
-  <div class="dropdown">
-    <div class="dropbtn">My Profile</div>
-  <div class="dropdown-container">
-    <a href="student.php">Students</a>
-    <a href="history.php">History</a>
-    <a href="report.php">Reports</a>
-    </div>
-  </div> 
-  <a href="login.php">Login</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</nav>
+    <main>
+      <div class = "content page-grid">
 
-<main>
-<section>
-    <div class = "content page-grid">
-        
           <!-- Card 1-->
           <section class = "card">
             <h3>About Us</h3>
@@ -57,7 +56,7 @@ ini_set("display_errors", 1);
           <section class = "card">
             <h3>Find a tutor now!</h3>
             <p> Complete the form, click Submit</p>
-           
+
             <form action="search.php" method="POST">
             <label for="subject">Subject</label>
             <select name="subject" id="subject">
@@ -80,20 +79,20 @@ ini_set("display_errors", 1);
               <option value="afternoon">Afternoon</option>
               <option value="evening">Evening</option>
               <option value="night">Night</option>
-            </select>  
-                                
+            </select>
+
             <label for="session">Session</label>
             <select name="session" id="session">
               <option value="person">In-Person</option>
               <option value="online">Online</option>
-            </select> 
-            
+            </select>
+
                 <button onclick="window.location.href='search.php';">Submit</button>
             </form>
 
 
           </section>
-</div>
-</main>
-</body>
+      </div>
+    </main>
+  </body>
 </html>
