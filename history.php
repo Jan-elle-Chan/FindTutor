@@ -1,10 +1,10 @@
 <?php
-require 'includes/database-connection.php';             // Create PDO object
-require 'includes/functions.php';                       // Functions 
-$sql       = "SELECT first, last FROM tutor
+require 'includes/database-connection.php'; // Create PDO object
+require 'includes/functions.php'; // Functions
+$sql = "SELECT first, last FROM tutor
               WHERE subject LIKE '%Mathematics%' AND level LIKE '%Secondary%';"; // SQL
-$statement = $pdo->query($sql);                                // Run query
-$tutors   = $statement->fetchAll();                           // Get data
+$statement = $pdo->query($sql); // Run query
+$tutors = $statement->fetchAll(); // Get data
 ?>
 
 
@@ -33,20 +33,18 @@ $tutors   = $statement->fetchAll();                           // Get data
     <a href="history.php">History</a>
     <a href="report.php">Reports</a>
     </div>
-  </div> 
+  </div>
   <a href="login.php">Login</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </nav>
 
 <main>
-<section>
+  <section>
     <div class = "content">
-        
-
-          <!-- Card-->
+      <!-- Card-->
           <section class = "card">
             <h3>Your Tutors</h3>
-           
+
             <div class = "bio-grid">
             <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -58,44 +56,13 @@ $tutors   = $statement->fetchAll();                           // Get data
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <button>Book Now</button>
           </div>
-          <?php foreach ($tutors as $tutor) { ?>
-        <div>
-          
-          <h2><?= html_escape($tutor['first']) ?> <?= html_escape($tutor['last']) ?></h2>
-          
-        </div>
-      <?php } ?>
-          </section>
-</div>
+          <?php foreach ($tutors as $tutor) {?>
+            <div>
+              <h2><?=html_escape($tutor['first'])?> <?=html_escape($tutor['last'])?></h2>
+            </div>
+          <?php }?>
+      </div>
+  </section>
 </main>
-
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
-var dropdown = document.getElementsByClassName("dropbtn");
-  var i;
-  
-  for (i = 0; i <script dropdown.length; i++) {
-    dropdown[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var dropdownContent = this.nextElementSibling;
-      if (dropdownContent.style.display === "block") {
-        dropdownContent.style.display = "none";
-      } else {
-        dropdownContent.style.display = "block";
-      }
-    });
-  }
-
-</script>
-
 </body>
 </html>
