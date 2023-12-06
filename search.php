@@ -53,8 +53,8 @@ $tutors = $statement->fetchAll(); // Get data
 
             <div class = "bio-grid">
               <?php foreach ($tutors as $tutor) {?>
-                <h6><?=html_escape($tutor['first'])?><?=html_escape($tutor['last'])?></h6>
-                <p>I am located in <?=html_escape($tutor['location'])?>. tutoring subjects <?=html_escape($tutor['subject'])?> at <?=html_escape($tutor['level'])?> level. <br>I have a <?=html_escape($tutor['rating'])?> star rating.</p>
+                <h6><?=html_escape($tutor['first'])?>&nbsp<?=html_escape($tutor['last'])?></h6>
+                <p>I am located in <?=html_escape($tutor['location'])?>, tutoring subjects <?=html_escape($tutor['subject'])?> at <?=html_escape($tutor['level'])?> level. <br>I have a <?=html_escape($tutor['rating'])?> star rating.</p>
                 <button>Book Now</button>
               <?php }?>
             </div>
