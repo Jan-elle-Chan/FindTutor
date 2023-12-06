@@ -16,12 +16,11 @@
   <a class="active" href="index.php">Home</a>
   <div class="dropdown">
     <div class="dropbtn">My Profile</div>
-  <div class="dropdown-container">
-    <a href="student.php">Students</a>
-    <a href="history.php">History</a>
-    <a href="report.php">Reports</a>
-    </div>
-  </div> 
+      <div class="dropdown-container">
+        <a href="student.php">Students</a>
+        <a href="history.php">History</a>
+      </div>
+    </div> 
   <a href="login.php">Login</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </nav>
