@@ -30,7 +30,8 @@
         <!-- Card 1-->
         <section class = "card">
             <h3>Welcome Back</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <p>What tutor would you like to search for today?</p>
+            <p>Select the subject, level, time of day, whether you want an online-session or in-person one, then click Submit</p>
             <img src="images/pexels-erik-mclean-9258431.jpg" alt="Image of books">
         </section>
 
